@@ -1,0 +1,30 @@
+{
+  "name": "quranbot",
+  "version": "1.0.0",
+  "description": "quran bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammedd-jabbar/quranBot.git"
+  },
+  "author": "Mohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammedd-jabbar/quranBot/issues"
+  },
+  "homepage": "https://github.com/mohammedd-jabbar/quranBot#readme",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "express": "^4.18.2",
+    "grammy": "^1.20.3",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
+  }
+}
