@@ -11,6 +11,7 @@ export async function generateSurahLink(id: string) {
     return false;
   }
 }
+
 // Function to validate surah existence
 export async function validateSurah(name: TValidateSurah) {
   const surah = quranSurahs.find((s) => s.name === name);
@@ -30,7 +31,7 @@ async function CheckAudioSize(surahLink: string) {
     if (contentLength) {
       const fileSize = parseInt(contentLength);
 
-      if (fileSize > 50 * 1024 * 1024) {
+      if (fileSize > 20 * 1024 * 1024) {
         return false;
       } else {
         return true;
