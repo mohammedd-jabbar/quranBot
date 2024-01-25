@@ -7,7 +7,7 @@ const PORT = 4040;
 const app = express();
 app.use(express.json());
 
-const bot = new Bot("6772405032:AAEc5K4JC79-txX71yhurytzXffNzeyogQA");
+const bot = new Bot("APIKEY");
 
 // Handle the /start command.
 bot.command("start", (ctx: any) => ctx.reply("Welcome! Up and running."));
