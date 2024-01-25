@@ -8,7 +8,7 @@ export async function generateSurahLink(id: string) {
   if (isSizeUnder50Mb) {
     return link;
   } else {
-    return false;
+    return { linkData: link, status: false };
   }
 }
 
