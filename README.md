@@ -1,2 +1,2 @@
 # Quran Bot
-#### created with grammy and typescript
+#### Created with grammy and typescript
